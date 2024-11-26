@@ -1,0 +1,143 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0f1923; /* Valorant background color */
+    color: #ffffff;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #ff4655; /* Valorant red */
+}
+
+a {
+    color: #ff4655;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Banner Styling */
+header.banner {
+    background-color: #ff4655;
+    padding: 20px;
+}
+
+header.banner h1 {
+    margin: 0;
+    font-size: 36px;
+    color: white;
+}
+
+/* Main Section Styling */
+main {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #1c252e; /* Slightly lighter for content */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+p, label {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+form {
+    margin-top: 20px;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    font-size: 16px;
+    color: #ff4655;
+    margin-bottom: 5px;
+}
+
+form input, form select, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form input, form select {
+    background-color: #1f2733;
+    color: #ffffff;
+}
+
+form button {
+    background-color: #ff4655;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #ff616d;
+}
+
+/* Links */
+.example-links {
+    margin-top: 20px;
+}
+
+.example-links a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #ff4655;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.example-links a:hover {
+    background-color: #ff616d;
+}
+
+/* Table Styling */
+table {
+    margin: 20px auto;
+    width: 90%;
+    border-collapse: collapse;
+    background-color: #1c252e;
+    border: 1px solid #2b3a47;
+    color: #ffffff;
+    text-align: left;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #2b3a47;
+}
+
+table th {
+    background-color: #ff4655;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+table tr:nth-child(even) {
+    background-color: #1f2733;
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #1c252e;
+    color: #bbbbbb;
+    font-size: 14px;
+}
