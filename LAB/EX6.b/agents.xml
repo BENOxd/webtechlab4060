@@ -1,0 +1,26 @@
+<agents>
+    <agent>
+        <name>Jett</name>
+        <role>Duelist</role>
+    </agent>
+    <agent>
+        <name>Brimstone</name>
+        <role>Controller</role>
+    </agent>
+    <agent>
+        <name>Cypher</name>
+        <role>Sentinel</role>
+    </agent>
+    <agent>
+        <name>Raze</name>
+        <role>Duelist</role>
+    </agent>
+    <agent>
+        <name>Viper</name>
+        <role>Controller</role>
+    </agent>
+    <agent>
+        <name>Killjoy</name>
+        <role>Sentinel</role>
+    </agent>
+</agents>
